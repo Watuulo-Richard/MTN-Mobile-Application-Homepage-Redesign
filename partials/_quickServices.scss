@@ -1,0 +1,33 @@
+.quick-services {
+    margin: 1rem;
+}
+
+.quick-heading h4 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.rounded-icons {
+    display: flex;
+    justify-content: space-between;
+
+    .icons {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .icon-container {
+        font-size: 1.5rem;
+        background-color: #ffcb05;
+        padding: 15px 20px;
+        border-radius: 50%;
+    }
+
+    .icons p {
+        font-size: small;
+        font-weight: bold;
+    }
+
+}

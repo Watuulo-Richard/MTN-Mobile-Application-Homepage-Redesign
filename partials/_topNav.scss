@@ -1,0 +1,16 @@
+
+.top-nav {
+
+    background-color:#ffcb05;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    & img {
+        width: 6rem;
+    }
+    
+    & i {
+        font-size: 2rem;
+    }
+}

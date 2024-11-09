@@ -1,0 +1,47 @@
+.offers {
+
+    .special-heading {
+        margin: 1rem;
+        font-weight: bold;
+        font-size: 1rem;
+        
+    }
+
+    .special-img {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .container-img {
+           
+            width: 90%;
+            margin-bottom: 2rem;
+    
+            & img {    
+                width: 100%;
+                height: 100%;
+                border-radius: 1rem;
+            }
+        }
+    }
+
+    & i {
+        font-size: 2rem;
+        position: absolute;
+        color: white;
+    }
+
+    .left {
+        left: 10%;
+    }
+
+    .right {
+        right: 10%;
+    }
+}
+
+
+
+
+

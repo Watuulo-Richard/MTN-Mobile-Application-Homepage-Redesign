@@ -1,0 +1,14 @@
+.header {
+    
+    display: flex;
+    justify-content: center;
+
+    & p {
+        font-weight: bold;
+    }
+
+    & span {
+    
+        color: rgba(0, 0, 0, 0.555);
+    }
+}
